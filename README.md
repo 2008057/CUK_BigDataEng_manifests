@@ -46,7 +46,7 @@ $ kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80
 ## kubeflow pipeline 돌려보기
 
 
--hello pipeline
+- hello pipeline
 
 ```
 import kfp
