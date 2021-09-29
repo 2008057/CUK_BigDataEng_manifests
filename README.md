@@ -28,9 +28,10 @@ git clone https://github.com/CUKykkim/manifests.git
 cd manifests
 ```
 
+
 ## kubeflow 설치하기
 
-- 'kustomize' 명령어를 입력하여 모든 yaml파일을 k8s상에서 수행
+- `kustomize` 명령어를 입력하여 모든 yaml파일을 k8s상에서 수행
 ```
 while ! kustomize build example | kubectl apply -f -; do echo "Retrying to apply resources"; sleep 10; done
 ```
