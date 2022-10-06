@@ -1,5 +1,13 @@
 # kubeflow 로 분석 플랫폼 구축하기
 
+## kubernetes 버전 확인
+
+- kubernetes 1.21 버전으로 설치해야 안정적으로 설치가능한 것으로 확인되었습니다. 
+- docker를 이미 설치하신 분이시라면 아래 버전으로 docker를 재 설치 하여 주시길 바랍니다.
+
+  * [Windows 사용자용 Docker Desktop](https://docs.docker.com/desktop/previous-versions/3.x-windows/)
+  * [Mac 사용자용 Docker Desktop](https://docs.docker.com/desktop/previous-versions/3.x-mac/)
+
 
 ## kustomize 다운 받기
 
