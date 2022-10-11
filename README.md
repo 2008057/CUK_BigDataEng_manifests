@@ -24,8 +24,8 @@ wget https://github.com/kubernetes-sigs/kustomize/releases/download/v3.2.0/kusto
 - 우분투 상에서 다음 명령어를 수행하여 kustomize를 설치한다.
 
 ```
+sudo chmod +x kustomize_3.2.0_linux_amd64
 sudo mv kustomize_3.2.0_linux_amd64 /usr/local/bin/kustomize
-sudo mv kustomize /usr/local/bin/
 kustomize version
 ```
 
